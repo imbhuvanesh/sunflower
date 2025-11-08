@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Editor Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+</head>
+<body>
+
+    <video id="video-bg" autoplay loop muted playsinline>
+        <source src="ALG.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <button id="sound-toggle" class="sound-toggle-btn">🔇</button>
+
+    <div class="content-wrapper">
+
+       
+        
+        <section id="about-section" class="section-container about-section-plain">
+            <h2>About Me & My Work</h2>
+            <p>Welcome! I specialize in high-end video and photo editing, focusing on cinematic color grading, seamless transitions, and storytelling through visual design. I use San Francisco fonts to ensure clean, professional typography across my work. Take a look below to see my recent projects!</p>
+        </section>
+
+        <main id="portfolio-grid" class="portfolio-grid">
+            
+            <div class="photo-container glass-container" data-src="a.jpg">
+                <img src="a.jpg" alt="Photo Edit: Project One - Depth and Lighting">
+                <div class="caption">
+                    <h2>Project Name One</h2>
+                    <p>The image was refined with improved lighting, contrast, and color balance.
+Distracting elements and imperfections were cleaned for a smoother look.
+Final touches enhance clarity while keeping the original mood intact.</p>
+                </div>
+            </div>
+
+            <div class="photo-container glass-container" data-src="b.jpg">
+                <img src="b.jpg" alt="Photo Edit: Project Two - Color Grading">
+                <div class="caption">
+                    <h2>Project Name Two</h2>
+                    <p>This photo has been enhanced to bring out clearer detail and balanced color. Lighting has been adjusted for better depth, while tones and contrast were refined for a cleaner look. Minor imperfections were removed, and overall sharpness improved to highlight the subject. The final result keeps the original mood but feels more polished and visually engaging.</p>
+                </div>
+            </div>
+
+            <div class="photo-container glass-container" data-src="c.jpg">
+                <img src="c.jpg" alt="Photo Edit: Project Three - Composition Focus">
+                <div class="caption">
+                    <h2>Project Name Three</h2>
+                    <p>he image was refined with improved lighting, contrast, and color balance.
+Distracting elements and imperfections were cleaned for a smoother look.
+Final touches enhance clarity while keeping the original mood intact.</p>
+                </div>
+            </div>
+
+            <div class="photo-container glass-container" data-src="d.jpg">
+                <img src="d.jpg" alt="Photo Edit: Project Four - Custom Image">
+                <div class="caption">
+                    <h2>Project Name Four</h2>
+                    <p>he image was refined with improved lighting, contrast, and color balance.
+Distracting elements and imperfections were cleaned for a smoother look.
+Final touches enhance clarity while keeping the original mood intact.</p>
+                </div>
+            </div>
+            <div class="photo-container glass-container" data-src="e.jpg">
+                <img src="e.jpg" alt="Photo Edit: Project Four - Custom Image">
+                <div class="caption">
+                    <h2>Project Name Four</h2>
+                    <p>he image was refined with improved lighting, contrast, and color balance.
+Distracting elements and imperfections were cleaned for a smoother look.
+Final touches enhance clarity while keeping the original mood intact.</p>
+                </div>
+            </div>
+            <div class="photo-container glass-container" data-src="f.jpg">
+                <img src="f.jpg" alt="Photo Edit: Project Four - Custom Image">
+                <div class="caption">
+                    <h2>Project Name Four</h2>
+                    <p>he image was refined with improved lighting, contrast, and color balance.
+Distracting elements and imperfections were cleaned for a smoother look.
+Final touches enhance clarity while keeping the original mood intact.</p>
+                </div>
+            </div>
+
+        </main>
+        
+        <section id="contact-section" class="section-container contact-section-plain">
+            <div class="social-icons">
+                <a href="mailto:bhuvaneshones@gmail.com" target="_blank" title="Email Me">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/bhuvanesh.genz/" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/im-bhuvanesh/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </section>
+        
+    </div>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span> 
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Zoomed Portfolio Image">
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
